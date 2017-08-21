@@ -1,0 +1,89 @@
+html {
+  background: url(../images/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+}
+
+.container {
+  display: block;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  padding-top: 5px;
+  background-color: green;
+}
+
+.logos {
+  display: inline-flex;
+  float: left;
+  align-items: center;
+  height: 55px;
+}
+
+.social {
+  display: inline-flex;
+  float: right;
+  align-items: center;
+  height: 55px;
+}
+
+#image1 {
+  height: 45px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#image2 {
+  height: 25px;
+}
+
+#image3 {
+  height: 30px;
+  margin-right: 20px;
+}
+
+#image4 {
+  height: 30px;
+  margin-right: 20px;
+
+}
+
+.headers {
+  top: 160px;
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-weight: normal;
+}
+
+#header1 {
+  font-size: 30px;
+}
+
+#header2 {
+  font-size: 22px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.footer:hover {
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}

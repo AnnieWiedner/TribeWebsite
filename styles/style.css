@@ -20,6 +20,7 @@ html {
   left: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+  z-index: 1000;
 }
 
 .logos {
@@ -172,19 +173,13 @@ a {
 }
 
 .tac h1 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
 }
 
 .tac h3 {
   font-weight: normal;
   padding-bottom: 30px;
-}
-
-.details {
-  color: #9B9B9B;
-  font-size: 14px;
-  padding-bottom: 10px;
 }
 
 #paragraphs {
@@ -196,12 +191,39 @@ a {
   right: 0;
 }
 
-.details ol li {
+#paragraphs p {
   color: #9B9B9B;
   font-size: 14px;
   padding-bottom: 10px;
 }
 
+#paragraphs ol {
+  padding-bottom: 10px;
+}
+
+#paragraphs ol li {
+  color: #9B9B9B;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 10px;
+  list-style-position: inside;
+}
+
+#paragraphs ol li:before {
+  content: ') ';
+  margin-left: -5px;
+}
+
+#paragraphs ul li {
+  color: #9B9B9B;
+  font-size: 14px;
+  margin: 0;
+}
+
+#paragraphs ul {
+  padding: 0;
+  list-style-type: none;
+}
 
 
 @media screen and (max-width: 400px) and (min-width: 300px) {

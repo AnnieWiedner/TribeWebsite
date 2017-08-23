@@ -3,9 +3,17 @@ $('#footer').click(function() {
   $('.container').css('background-size', '100% 60px')
   $('html').css('background-image', 'none')
   $('html').css('color', 'black')
-  $('#image2').remove()
-  $('#image3').remove()
-  $('#image4').remove()
+  $('#image-test').remove()
+  $('.social').remove()
   $('.footer').remove()
+  $('.headers').remove()
+  $($('.item')[1]).remove()
+
+
+})
+
+$('#image1').click(function() {
+  $('.container').removeAttr('style')
+  $('html').removeAttr('style')
 
 })

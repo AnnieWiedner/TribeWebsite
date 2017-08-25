@@ -172,7 +172,6 @@ a {
 .tac h1 {
   font-size: 22px;
   font-weight: normal;
-
 }
 
 .tac h3 {
@@ -234,7 +233,6 @@ a {
   cursor: pointer;
 }
 
-
 html, body {
   height: 100%;
   margin: 0;
@@ -245,12 +243,8 @@ html, body {
 }
 
 
-#footer {
 
-  width: 100%;
-  height: 60px;
-  background-color: #F6F6F6;
-}
+
 
 
 
@@ -284,30 +278,36 @@ html, body {
     height: 25px;
     visibility: hidden;
     opacity: 0;
-    transition: all 1s ease;
     display: block;
   }
   .toggle {
     clear: both;
     display: block;
     width: 95%;
-    height: 55px;
-    line-height: 55px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    background-color: blue;
+    background-color: #F88184;
+    color: white;
+    border: 2px solid white;
   }
-  .toggle:hover {
-    background: yellow;
+  #checkbox-toggle:checked + label #menu li:hover {
+    color: pink;
   }
   #checkbox-toggle:checked + label #menu li {
     opacity: 1;
     visibility: visible;
-    transition: all .7s linear;
-
+    vertical-align: middle;
+    line-height: 40px;
   }
   #checkbox-toggle:checked + label #menu {
-    height: 150px;
-    background-color: purple;
+    height: 200px;
+    background-color: #444242;
+    color: white;
+    border: 2px solid #444242;
+  }
+  #checkbox-toggle:checked + label .toggle {
+    border: 2px solid #F88184;
   }
   #menu {
     width: 95%;
@@ -316,6 +316,7 @@ html, body {
     justify-content: space-around;
     align-items: center;
     height: 0px;
+    padding-top: 5px;
   }
   #menu li {
     width: 95%;
@@ -324,15 +325,23 @@ html, body {
     opacity: 0;
     visibility: hidden;
   }
-
   #menu li a {
     width: 100%;
     text-align: center;
     align-self: center;
     align-content: center;
   }
-
-
-
-
+  .tac {
+    padding-bottom: 5px;
+  }
+  .tac h1 {
+    font-size: 20px;
+  }
+  .tac h3 {
+    font-size: 16px;
+  }
+  #content {
+    width: 95%;
+    top: 85px;
+  }
 }

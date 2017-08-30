@@ -1,18 +1,50 @@
 $(document).ready(function(){
   $(document).on("click", "#privacy", function() {
     privacyPolicy()
+    $('#nav').css({"width": ""})
+    $('#nav-item').css({"opacity": ""})
+    $('#content').animate({"right": ""}, 300)
+    $('#image-item').css({"visibility": ""})
+    $('#menu').css({"visibility": ""})
+    $('.toggle').css({"visibility": ""})
+    $('#exit').css({"visibility": ""})
+    $("html, body").animate({ scrollTop: 0 }, 500);
   })
 
   $(document).on("click", "#community", function() {
     community()
+    $('#nav').css({"width": ""})
+    $('#nav-item').css({"opacity": ""})
+    $('#content').animate({"right": ""}, 300)
+    $('#image-item').css({"visibility": ""})
+    $('#menu').css({"visibility": ""})
+    $('.toggle').css({"visibility": ""})
+    $('#exit').css({"visibility": ""})
+    $("html, body").animate({ scrollTop: 0 }, 500);
   })
 
   $(document).on("click", "#amendment", function() {
     amendment()
+    $('#nav').css({"width": ""})
+    $('#nav-item').css({"opacity": ""})
+    $('#content').animate({"right": ""}, 300)
+    $('#image-item').css({"visibility": ""})
+    $('#menu').css({"visibility": ""})
+    $('.toggle').css({"visibility": ""})
+    $('#exit').css({"visibility": ""})
+    $("html, body").animate({ scrollTop: 0 }, 500);
   })
 
   $(document).on("click", "#terms", function() {
     termsOfService()
+    $('#nav').css({"width": ""})
+    $('#nav-item').css({"opacity": ""})
+    $('#content').animate({"right": ""}, 300)
+    $('#image-item').css({"visibility": ""})
+    $('#menu').css({"visibility": ""})
+    $('.toggle').css({"visibility": ""})
+    $('#exit').css({"visibility": ""})
+    $("html, body").animate({ scrollTop: 0 }, 500);
   })
 
   $(document).on("click", "#logo-left", function() {
@@ -26,7 +58,7 @@ $(document).ready(function(){
   $(document).on("click", "#side-menu", function() {
     $('#nav').css({"width": "230px"})
     $('.nav-item').css({"opacity": "1"})
-    $('#content').css({"margin-right": "230px"})
+    $('#content').css({"right": "230px"})
     $('#image-item').css({"visibility": "hidden"})
     $('#menu').css({"visibility": "visible"})
     $('.toggle').css({"visibility": "hidden"})
@@ -35,7 +67,7 @@ $(document).ready(function(){
   $(document).on("click", "#exit", function() {
     $('#nav').css({"width": ""})
     $('#nav-item').css({"opacity": ""})
-    $('#content').css({"margin-right": ""})
+    $('#content').css({"right": ""})
     $('#image-item').css({"visibility": ""})
     $('#menu').css({"visibility": ""})
     $('.toggle').css({"visibility": ""})

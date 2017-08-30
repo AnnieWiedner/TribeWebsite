@@ -151,6 +151,9 @@ a {
 .tac {
   text-align: center;
   color: #4A4A4A;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
 }
 
 .tac h1 {
@@ -168,7 +171,7 @@ a {
 
 #paragraphs {
   display: block;
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
   min-height: 100%;
 }
@@ -240,11 +243,11 @@ body {
 
 #content {
   display: block;
-  float: left;
   margin-top: 20px;
-  padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 90px;
+  position: relative;
   width: 100vw;
   min-height: 100%;
   background-color: white;
@@ -310,9 +313,7 @@ body {
     font-size: 16px;
   }
   #content {
-    width: 95%;
-    top: 85px;
-    transition: margin-right 0.5s;
+    width: 100%;
   }
   #nav {
     flex-direction: column;

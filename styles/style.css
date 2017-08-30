@@ -1,4 +1,3 @@
-
 html {
   background: url(../images/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -89,13 +88,12 @@ a {
   color: white
 }
 
-
 .footer {
   position: absolute;
   bottom: 0px;
   right: 10px;
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer:hover {
@@ -109,8 +107,8 @@ a {
   float: right;
   color: white;
   height: 55px;
+  min-height: 100%;
 }
-
 
 .underline {
   text-decoration: underline;
@@ -126,11 +124,9 @@ a {
   margin-top: 5px;
 }
 
-
 #image-item img{
   height: 45px;
 }
-
 
 #menu li {
   flex-grow: 1;
@@ -149,17 +145,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-#content {
-  display: block;
-  position: absolute;
-  width: 90%;
-  top: 100px;
-  margin: auto;
-  height: 100%;
-  left: 0;
-  right: 0;
+  min-height: 100%;
 }
 
 .tac {
@@ -182,11 +168,9 @@ a {
 
 #paragraphs {
   display: block;
-  position: absolute;
-  width: 85%;
-  margin: auto;
-  left: 0;
-  right: 0;
+  width: 90vw;
+  margin: 0 auto;
+  min-height: 100%;
 }
 
 #paragraphs p {
@@ -231,10 +215,58 @@ a {
   cursor: pointer;
 }
 
-html, body {
+html,body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
+
+
+body {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow: auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+#content {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100vw;
+  min-height: 100%;
+  background-color: white;
+}
+
+.sticky-footer {
+  float: right;
+  bottom: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+  height: 75px;
+  width: 100%;
+  z-index: -100;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-img {
+  height: 40px;
+  align-self: center;
+}
+
 
 #nav {
   z-index: 200;
@@ -247,7 +279,6 @@ html, body {
 .toggle {
   visibility: hidden;
 }
-
 
 
 @media screen and (max-width: 400px) and (min-width: 300px) {
@@ -305,12 +336,11 @@ html, body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background-color: #F88184;
     color: white;
-    border: 2px solid white;
     margin-bottom: 5px;
     margin-top: 5px;
-    visibility: visible
+    visibility: visible;
+    font-size: 30px;
   }
   #menu {
     width: 0 auto;
@@ -336,7 +366,8 @@ html, body {
     font-size: 14px;
     width: 90%
   }
-
-
+  .container {
+    padding-bottom: 10px;
+  }
 
 }

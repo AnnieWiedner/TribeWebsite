@@ -191,4 +191,7 @@ var main = function() {
     $('.social').append('<a href="#"><img id="image3" src="images/facebook.png"></a>')
     $('.social').append('<a href="https://www.instagram.com/tribe_emoji/"><img id="image4" src="images/instagram.png"></a>')
     $('html').removeAttr('style')
+    $('footer').remove();
+    $('#image-item').remove();
+    $('#side-menu').remove();
   }

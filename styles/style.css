@@ -1,4 +1,3 @@
-
 html {
   background: url(../images/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -21,7 +20,7 @@ html {
   left: 0;
   padding-top: 5px;
   padding-bottom: 5px;
-  z-index: 100
+  z-index: 100;
 }
 
 .logos {
@@ -78,11 +77,11 @@ html {
 }
 
 #header {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #subhead {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 a {
@@ -93,7 +92,7 @@ a {
   position: absolute;
   bottom: 0px;
   right: 10px;
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -302,10 +301,10 @@ body {
     height: 40px;
   }
   #header {
-    font-size: 20px;
+    font-size: 25px;
   }
   #subhead {
-    font-size: 14px;
+    font-size: 17px;
   }
   .t {
     padding-bottom: 5px;

@@ -4,7 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: white;
   margin: 0;
   padding: 0;
@@ -18,8 +18,7 @@ html {
   top: 0;
   right: 0;
   left: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 60px;
   z-index: 100;
 }
 
@@ -31,7 +30,7 @@ html {
   -moz-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  height: 55px;
+  height: 60px;
 }
 
 .social {
@@ -42,17 +41,17 @@ html {
   -moz-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  height: 55px;
+  height: 60px;
 }
 
 #image1 {
-  height: 45px;
+  height: 40px;
   margin-right: 15px;
   margin-left: 20px;
 }
 
 #image2 {
-  height: 25px;
+  height: 20px;
 }
 
 #image3 {
@@ -77,11 +76,16 @@ html {
 }
 
 #header {
-  font-size: 30px;
+  font-size: 26px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+
 }
 
 #subhead {
-  font-size: 22px;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -92,7 +96,7 @@ a {
   position: absolute;
   bottom: 0px;
   right: 10px;
-  font-size: 18px;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -123,19 +127,27 @@ a {
 .left {
   position: absolute;
   left: 20px;
-  margin-top: 5px;
 }
 
 #image-item img{
-  height: 45px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+#image-item {
+  height: 60px;
+}
+
+
 
 #menu li {
   flex-grow: 1;
   flex-shrink: 1;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-left: 5px;
   align-self: center;
+  font-size: 13px;
 }
 
 #menu {
@@ -303,10 +315,10 @@ body {
     height: 40px;
   }
   #header {
-    font-size: 25px;
+    font-size: 23px;
   }
   #subhead {
-    font-size: 17px;
+    font-size: 15px;
   }
   .t {
     padding-bottom: 5px;
@@ -339,8 +351,8 @@ body {
     display: block;
     width: 20%;
     float: right;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     color: white;
     margin-bottom: 5px;
